@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FEFEFE;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    padding: 24px 0;
+    margin-bottom: 24px;
+}
+.logo{
+    margin-bottom: 24px;
+}
+.nav-list li{
+    display: inline-block;
+    margin-right: 24px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li a:hover{
+    color: #4e4e4e;
+}
+.jumbotron{
+    height: 500px;
+    background-image: url('../img/sangar2.jpg');
+    background-size: cover;
+    border-radius: 12px;
+}
+.content article,
+.content aside{
+    margin-top: 40px;
+    float: left;
+}
+
+.content article{
+    width: calc(70% - 48px);
+}
+.content aside{
+    margin-left: 48px;
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #CDCDCD;
+    border-radius: 12px;
+    padding: 24px;
+}
+.content aside h3{
+    font-size: 30px;
+    margin-bottom: 36px;
+}
+.content aside img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    object-fit: cover;
+}
+.content article h3{
+    font-size: 30px;
+}
+
+.content article span{
+    color: #CDCDCD;
+    margin: 24px 0;
+    display: inline-block;
+}
+
+.content article p{
+    line-height: 26px;
+    text-align: justify;
+}
+
+.content aside h5{
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content aside span{
+    color: #CDCDCD;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.clear{
+    clear: left;
+}
+footer{
+    background-color: #333;
+    margin-top: 84px;
+    color: white;
+    text-align: center;
+    line-height: 72px;
+}
